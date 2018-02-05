@@ -1,9 +1,11 @@
 # Special config for Github Pages
+
+# Ignore everything
 *
 
 # Bring back this file and the build
 !.gitignore
-!index.compiled.html
+!index.html
 !public/
 !public/*
 !public/css/*
