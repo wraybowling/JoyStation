@@ -3,5 +3,8 @@
 
 # Bring back this file and the build
 !.gitignore
-!docs/
-
+!index.compiled.html
+!public/
+!public/*
+!public/css/*
+!public/js/*
