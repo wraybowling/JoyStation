@@ -2,6 +2,7 @@
 
 # Ignore everything
 *
+node_modules/
 
 # Bring back this file and the build
 !.gitignore
