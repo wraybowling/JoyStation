@@ -1,6 +1,6 @@
 .DS_Store
 node_modules/
-docs/
+# docs/ # Special settings for github pages
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
