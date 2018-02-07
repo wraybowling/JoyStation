@@ -37,9 +37,13 @@ export default new Router({
       component: Done
     },
     {
+      path: '/JoyStation',
+      component: Face
+    },
+    {
       path: '/',
       name: 'right nauw',
       component: Face
-    }
+    },
   ]
 })
