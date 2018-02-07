@@ -1,16 +1,18 @@
 <template>
 	<div class="vueRoot">
 		<Debug v-if="debug" />
-		<router-view />
+		<!-- <router-view /> -->
+		<Face/>
 	</div>
 </template>
 
 <script>
 	import Debug from './components/Debug'
+	import Face from './components/Face'
 	export default {
 		name: 'app',
 		props: ['debug'],
-		components: {Debug}
+		components: {Debug, Face}
   }
 </script>
 
